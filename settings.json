@@ -1,0 +1,195 @@
+{
+    "editor.lineNumbers": "relative",
+    //"livePreview.autoRefreshPreview": "On All Changes in Editor",
+    "livePreview.openPreviewTarget": "External Browser",
+    "zenMode.hideLineNumbers": false,
+    "editor.stickyScroll.enabled": true,
+    "editor.linkedEditing": true,
+    "editor.suggest.insertMode": "replace",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "extensions.ignoreRecommendations": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "Cascadia Code",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "window.zoomLevel": 1,
+    "editor.fontSize": 18,
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "workbench.settings.editor": "json",
+    "vim.leader": "<space>",
+    "vim.foldfix": true,
+    "vim.hlsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "vim.highlightedyank.color": "rgba(230, 97, 89, 0.7)",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader",
+                "t"
+            ],
+            "commands": [
+                "extension.toggleBool"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "p"
+            ],
+            "commands": [
+                "livePreview.start.preview.atFile"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                ":w!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                ":q!"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "x"
+            ],
+            "commands": [
+                ":x!"
+            ]
+        },
+        {
+            "before": [
+                "<c-a>"
+            ],
+            "after": [
+                "g",
+                "g",
+                "V",
+                "G"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "k"
+            ],
+            "commands": [
+                "editor.action.showHover"
+            ]
+        },
+        {
+            "before": [
+                "]",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.next"
+            ]
+        },
+        {
+            "before": [
+                "[",
+                "d"
+            ],
+            "commands": [
+                "editor.action.marker.prev"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "c",
+                "a"
+            ],
+            "commands": [
+                "editor.action.quickFix"
+            ]
+        },
+        {
+            "before": [
+                "s",
+                "s"
+            ],
+            "commands": [
+                ":sp"
+            ]
+        },
+        {
+            "before": [
+                "v",
+                "s"
+            ],
+            "commands": [
+                ":vsp"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "i"
+            ],
+            "commands": [
+                "editor.toggleBool"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpenPreviousEditor"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "/"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        {
+            "before": [
+                "tab"
+            ],
+            "commands": [
+                "workbench.action.nextEditorInGroup"
+            ]
+        },
+        {
+            "before": [
+                "shift+tab"
+            ],
+            "commands": [
+                "workbench.action.previousEditorInGroup"
+            ]
+        }
+    ],
+    "sortJSON.orderOverride": [
+        "name",
+        "version",
+        "description"
+    ],
+    "sortJSON.orderUnderride": [
+        "dependencies",
+        "devDependencies"
+    ],
+    "workbench.colorTheme": "One Dark Pro Flat",
+}
