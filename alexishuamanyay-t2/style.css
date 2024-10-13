@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.c {
+    display: flex;
+    align-items: center;
+}
+
+.titulo1 {
+    display: inline;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 500px;
+}
+
+.social-media {
+    display: inline;
+    gap: 15px;
+}
+
+.icono {
+    width: 30px;
+    height: 30px;
+}
+
+.banner {
+    width: 100%;
+    height: 250px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+.anuncios {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.anuncios .col {
+    text-align: center;
+}
+
+.anuncio-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+footer img {
+    width: 100%;
+    height: 150px;
+    border-radius: 25px;
+}
